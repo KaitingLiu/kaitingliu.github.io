@@ -5,12 +5,5 @@ title: About
 
 # About Me
 
-Hello! My name is Kaiting. I'm passionate about exploring innovative research in AI, focusing on:
-
-- Deep learning explainability
-- Vision-language models
-- Fine-grained action understanding
-
-When not working on research, I enjoy coding, reading papers, and exploring new tools for understanding AI.
-
-[Back to Home](/)
+I am a PhD candidate at Leiden University in the Leiden Institute for Advanced Computer Science (LIACS), supervised by Dr. Hazel Doughty.
+My research interests lie in video understanding, action recognition and representation learning. 
