@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Home
+title: Kaiting Liu
 ---
 
-# Welcome to Kaiting's Homepage
-
-Hi! I’m Kaiting, a PhD student focusing on deep learning explainability, natural language processing, and computer vision. My research explores innovative solutions in AI interpretability and multimodal systems.
+I am a PhD candidate at Leiden University in the Leiden Institute for Advanced Computer Science (LIACS), supervised by Dr. Hazel Doughty. My research interests lie in video understanding, action recognition and representation learning.
 
 ## Contact Me
 - 📧 Email: [kaiting@example.com](mailto:kaiting@example.com)
