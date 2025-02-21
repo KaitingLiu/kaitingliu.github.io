@@ -2,27 +2,39 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #4CAF50;
-    color: white;
     font-size: 2em;
+    color: #333;
 }
 
 .section {
-    margin: 30px 0;
+    margin: 30px auto;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
 }
 
-.personal-info {
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #444;
+}
+
+.section-content {
     display: flex;
+    gap: 20px;
+}
+
+.personal-info-section .section-content {
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -30,7 +42,6 @@ header {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-right: 20px;
 }
 
 .logos {
@@ -51,7 +62,7 @@ header {
 .publication-item {
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .publication-item img {
@@ -75,4 +86,8 @@ header {
 .publication-details .links {
     font-size: 14px;
     color: #4CAF50;
+}
+
+.publications-section .section-content {
+    flex-direction: column;
 }
