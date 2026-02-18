@@ -284,7 +284,25 @@
               <img src="https://kaitingliu.github.io/Category-Splitting/static/images/concept_v2-3.jpg" alt="Task Concept Figure" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
             </p>
             <p>
-              some text
+              <p>
+              We address the problem of <strong>category splitting</strong>, as illustrated in the above figure, 
+              where a chosen coarse category in an existing classifier is refined into several 
+              fine-grained subcategories, while preserving performance on all other categories. 
+              This task setting introduces two key challenges:
+              </p>
+              
+              <p>
+              <strong>Efficiency.</strong> Retraining the model for the new subcategories would require 
+              substantial data collection, annotation effort, and computation. 
+              We instead aim for a lightweight update that works with minimal additional data 
+              (few-shot or zero-shot) and computation.
+              </p>
+              
+              <p>
+              <strong>Performance.</strong> The updated model should (1) exhibit <strong>generality</strong>, 
+              correctly recognizing unseen instances of the new subcategories, and 
+              (2) maintain <strong>locality</strong>, preserving predictions for all untouched categories.
+              </p>
             </p>
         </div>
       </div>
