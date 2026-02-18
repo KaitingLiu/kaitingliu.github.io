@@ -295,7 +295,7 @@
               <strong>Efficiency.</strong> Retraining the model for the new subcategories would require 
               substantial data collection, annotation effort, and computation. 
               We instead aim for a lightweight update that works with minimal additional data 
-              (few-shot or zero-shot) and computation.
+              (low-shot or zero-shot) and computation.
               </p>
               
               <p>
@@ -338,6 +338,24 @@
   </div>
 </section> -->
 
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title">Zero-shot Category Splitting</h2>
+         <p>
+              <img src="https://kaitingliu.github.io/Category-Splitting/static/images/zero_shot_v3.jpg" alt="Zero-shot Concept Figure" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+            </p>
+            <p>
+            some text      
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section hero is-small is-light">
   <div class="container is-max-desktop">
     <div class="content">
@@ -359,30 +377,12 @@
         <div class="column is-half">
           <div class="content has-text-justified">
             <p>
-              We start with a naive few-shot approach, where the backbone and original classifier weights are frozen and only the new subcategory head weights are fine-tuned. This simple strategy yields decent results and serves as an initial exploration of category splitting.
+              We start with a naive low-shot approach, where the backbone and original classifier weights are frozen and only the new subcategory head weights are fine-tuned. This simple strategy yields decent results and serves as an initial exploration of category splitting.
             </p>
           </div>
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<section class="section hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full">
-        <div class="content">
-          <h2 class="title">Zero-shot Category Splitting</h2>
-         <p>
-              <img src="https://kaitingliu.github.io/Category-Splitting/static/images/zero_shot_v3.jpg" alt="Zero-shot Concept Figure" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
-            </p>
-            <p>
-            some text      
-            </p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
