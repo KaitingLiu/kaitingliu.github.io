@@ -348,7 +348,9 @@
               <img src="https://kaitingliu.github.io/Category-Splitting/static/images/zero_shot_v3.jpg" alt="Zero-shot Concept Figure" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
             </p>
             <p>
-            some text      
+              We propose a zero-shot category splitting method based on feature compositionality, where new subcategory weights of the classification head are created by combining a coarse category weight with an appropriate modifier feature vector that captures fine-grained variations.
+              Modifier vectors are organized into a dictionary, with modifier text descriptions as keys and the corresponding vectors as values, allowing retrieval of appropriate modifiers for coarse categories. 
+              To generalize to unseen modifiers, we also introduce a lightweight alignment module that maps text embeddings of the description directly to modifier feature vectors.
             </p>
         </div>
       </div>
@@ -377,7 +379,8 @@
         <div class="column is-half">
           <div class="content has-text-justified">
             <p>
-              We start with a naive low-shot approach, where the backbone and original classifier weights are frozen and only the new subcategory head weights are fine-tuned. This simple strategy yields decent results and serves as an initial exploration of category splitting.
+              We also explore a naive low-shot approach, where the backbone and original classifier weights are frozen and only the new subcategory head weights are fine-tuned. 
+              Initializing the subcategory weights using the zero-shot method further improves performance.
             </p>
           </div>
         </div>
